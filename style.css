@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    text-align: center;
+    width: 400px;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.timer-display {
+    font-size: 4rem;
+    font-weight: bold;
+    margin: 20px 0;
+    color: #333;
+}
+
+button {
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+    margin: 5px;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+button.active {
+    background-color: #2E7D32;
+}
+
+#pause {
+    background-color: #FFC107;
+}
+
+#pause:hover {
+    background-color: #FFB300;
+}
+
+#reset {
+    background-color: #F44336;
+}
+
+#reset:hover {
+    background-color: #E53935;
+}
+
+.timer-controls, .timer-modes {
+    margin: 20px 0;
+}
+
+.session-count {
+    margin-top: 20px;
+    font-size: 1.1rem;
+    color: #666;
+}
